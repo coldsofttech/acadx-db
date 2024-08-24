@@ -31,4 +31,4 @@ jobs:
 
       - name: Run Lint
         run: |
-          sqlfluff lint .\scripts\ --config .\.sqlfluff --nofail
+          sqlfluff lint scripts\ --config .sqlfluff --nofail
