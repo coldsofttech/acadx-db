@@ -1,0 +1,43 @@
+# Ignore binary files
+*.bak
+*.backup
+*.bin
+*.exe
+*.dll
+
+# Ignore temporary files
+*.log
+*.tmp
+*.temp
+*.out
+*.o
+
+# Ignore editor swap files
+*~
+*.swp
+
+# Ignore database dumps
+# *.sql
+*.sql.gz
+*.dump
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.env
+
+# Ignore environment-specific configuration files
+.env
+.env.local
+.env.*.local
+
+# Ignore node_modules if using Node.js for deployment scripts
+node_modules/
