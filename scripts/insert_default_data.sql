@@ -88,6 +88,12 @@ SET IDENTITY_INSERT [dbo].[std_audit_operations] OFF
 GO
 INSERT [dbo].[config] ([component], [category], [configuration], [value], [created_by], [created_on], [updated_by], [updated_on]) VALUES (N'AcadX', N'GENERAL', N'ENVIRONMENT', N'dev', 1, CAST(N'2024-08-25T17:15:04.337' AS DateTime), NULL, NULL)
 GO
+INSERT [dbo].[config] ([component], [category], [configuration], [value], [created_by], [created_on], [updated_by], [updated_on]) VALUES (N'AcadX API', N'RATE_LIMIT', N'ERROR_MESSAGE', N'Too many requests from this IP, please try again later.', 1, CAST(N'2024-08-26T08:10:50.227' AS DateTime), NULL, NULL)
+GO
+INSERT [dbo].[config] ([component], [category], [configuration], [value], [created_by], [created_on], [updated_by], [updated_on]) VALUES (N'AcadX API', N'RATE_LIMIT', N'MAX_IPS', N'100', 1, CAST(N'2024-08-26T08:10:34.620' AS DateTime), NULL, NULL)
+GO
+INSERT [dbo].[config] ([component], [category], [configuration], [value], [created_by], [created_on], [updated_by], [updated_on]) VALUES (N'AcadX API', N'RATE_LIMIT', N'WINDOWMS', N'900000', 1, CAST(N'2024-08-26T08:10:24.930' AS DateTime), NULL, NULL)
+GO
 INSERT [dbo].[config] ([component], [category], [configuration], [value], [created_by], [created_on], [updated_by], [updated_on]) VALUES (N'AcadX UI', N'COOKIE', N'MAX_AGE', N'86400000', 1, CAST(N'2024-08-25T16:55:27.277' AS DateTime), NULL, NULL)
 GO
 INSERT [dbo].[config] ([component], [category], [configuration], [value], [created_by], [created_on], [updated_by], [updated_on]) VALUES (N'AcadX UI', N'COOKIE', N'PATH', N'/', 1, CAST(N'2024-08-25T16:56:28.530' AS DateTime), NULL, NULL)
